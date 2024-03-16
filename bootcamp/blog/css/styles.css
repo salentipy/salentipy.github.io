@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #DA0090;
+    margin: 0;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    
+}
+
+/******
+ my code starts here 
+ ******/
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+header h1 {
+    margin: 0;
+}
+header p {
+    margin: 0;
+}
+.leftheader {
+    margin: 0.7rem;
+}
+.rightheader {
+    margin: 4rem 0.7rem 0.7rem 0.7rem;
+}
+nav {
+    margin-bottom: 2rem;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #DA0090;
+    border-bottom: 2px solid #A51F10;
+}
+nav li{
+    margin: 0.5rem;
+}
+nav a {
+    color: black;
+}
+article {
+    margin-bottom: 2.5rem;
+}
+article img {
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+.floatleft {
+    float: left;
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.doubledivider {
+    border-top: 2px solid #DA0090;
+    border-bottom: 2px solid #DA0090;
+    height: 0.5rem;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer li {
+    display: inline-block;
+}
